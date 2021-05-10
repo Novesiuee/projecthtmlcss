@@ -1,0 +1,93 @@
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:grey;
+}
+
+.kotak-pertama {
+    margin: auto;
+    width: 85%;
+    height: 550px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.kotak-pertama-kiri {
+    width: 65%;
+    background-color: brown;
+}
+
+.pict {
+    width: 755px;
+    height: 550px;
+}
+
+.kotak-pertama-kanan {
+    width: 35%;
+    background-color: snow;
+}
+
+#sign {
+    font-size: 35px;
+    text-align: center;
+    top: 80px;
+    position: relative;
+}
+
+#sign, form label {
+    color:lightslategray;
+}
+
+form {
+    margin-left: 80px;
+    top: 120px;
+    position: relative;
+
+}
+
+form input {
+    display: block;
+    width:250px;
+    margin-bottom: 15px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    height: 35px;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+    border-bottom: 2px solid lightslategrey;
+} 
+
+form input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color:rgb(58, 57, 57);
+    top: 8px;
+    position: relative;
+    color: snow;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+form input[type="submit"]:hover {
+    background-color: lightslategray;
+}
+
+.forget-password {
+    font-size: lightslategrey;
+    font-size: 15px;
+    bottom: 0px;
+    position: relative;
+}
+

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #7F00FF; 
+    background: -webkit-linear-gradient(to right, #E100FF, rgb(127, 0, 255));
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+}
+
+.container {
+    width:500px;
+    height:620px;
+    background-color: rgba(60, 0, 121, 0.3);
+    margin-top: 12px;
+    margin-left: 435px;
+    position: relative;
+}
+
+.sign {
+    text-align: center;
+    font-size: 35px;
+    top: 50px;
+    position: relative;
+}
+
+h2, label {
+    color: aliceblue;
+}
+
+form {
+    left: 130px;
+    top: 80px;
+    position: relative;
+}
+
+form input {
+    display: block;
+    width: 250px;
+}
+
+.first-name, .last-name, .gmail {
+    margin-bottom: 10px;
+}
+
+.check-box {
+    display: -webkit-flex;
+    margin-top:3px;
+    font-size: 12px;
+}
+
+.check-box input {
+    width:15px;
+}
+
+.check-box label {
+    margin-top: 3px;
+    margin-left: 2px;
+}
+
+.forgot-password {
+    font-size: 12px;
+    left: 142px;
+    bottom: 15px;
+    position: relative;
+}
+
+.submit input {
+    width: 100px;
+    height:35px;
+    left: 78px;
+    top: 280px;
+    position: absolute;
+    font-size: 17px;
+    color:gray;
+}
+
+.ig {
+    width: 100px;
+    height: 100px;
+    top: 130px;
+    left: 120px;
+    position: relative;
+}
+
+.fb {
+    width: 100px;
+    height: 100px;
+    top: 128px;
+    position: relative;
+    left:100px;
+}
+
+.twt {
+    width: 70px;
+    height: 70px;
+    top: 115px;
+    left: 100px;
+    position: relative;
+
+}
+

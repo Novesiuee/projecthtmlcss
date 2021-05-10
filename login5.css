@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.bg {
+    width: 100%;
+    height: 642.5px;
+}
+
+.kotak-kedua {
+    width: 600px;
+    height:550px;
+    background-color: rgba(100, 12, 158, 0.7);
+    position: absolute;
+    bottom: 50px;
+    left: 380px;
+}
+
+.sign {
+    left: 20px;
+    top: 45px;
+    position: relative;
+    color: snow;
+    font-size: 35px;
+}
+
+.mediaa {
+    width: 200px;
+    height: 80px;
+    left: 380px;
+    bottom: 510px;
+    position: absolute;
+}
+
+form {
+    left: 200px;
+    top: 80px;
+    position: relative;
+}
+
+form input {
+    width: 200px;
+}
+
+.username, .password {
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.checkbox {
+    display:-webkit-flex;
+    bottom: 5px;
+    left:-17px;
+    position: relative;
+    font-size: 12px;
+}
+
+.checkbox input {
+    width: 50px;
+}
+
+.checkbox label {
+    margin-left: -15px;
+    color: snow;
+}
+
+form input[type="submit"] {
+    border: none;
+    outline: none;
+    left: 50px;
+    top: 20px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    width: 100px;
+
+}
+
+form input[type="submit"]:hover {
+    background-color: black;
+
+}
+
+p {
+    text-align: center;
+    margin-top: 310px;
+}
+p span {
+    color: rgb(42, 42, 233);
+}

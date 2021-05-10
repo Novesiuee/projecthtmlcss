@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #C6FFDD;  
+    background: -webkit-linear-gradient(to left, #f7797d, rgb(251, 215, 134), #C6FFDD); 
+    background: linear-gradient(to left, #f7797d, #FBD786, #C6FFDD); 
+}
+
+.container {
+    width: 500px;
+    height: 620px;
+    background-color: rgba(251, 215, 150, 0.5); 
+    margin-left: 410px;
+    margin-top: 12px;
+}
+
+.sign {
+    color: gray;
+    text-align: center;
+    font-size: 42px;
+    top: 70px;
+    position: relative;
+}
+
+form {
+    margin-left: 130px;
+    margin-top: 100px;
+    
+}
+
+form label{
+    color: gray;
+    
+}
+
+.id {
+    margin-bottom: 10px;
+}
+
+.password {
+    margin-bottom: 10px;
+}
+
+.gmail {
+    margin-bottom: 10px;
+}
+
+.date {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 250px;
+    display: block;
+
+}
+
+form input[type="date"] {
+    width: 130px;
+}
+
+.check-box {
+    display: -webkit-flex;
+    margin-top: 3px;
+}
+
+
+.check-box input {
+    width: 20px;
+}
+
+.check-box label {
+    font-size: 12px;
+}
+
+.forgot-password {
+    
+    font-size: 12px;
+    margin-left: 142px;
+    bottom: 165px;
+    position: absolute;
+}
+
+.or {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.ig {
+    width: 100px;
+    height: 100px;
+    left: 110px;
+    bottom: 15px;
+    position: relative;
+
+}
+
+.fb {
+    width: 100px;
+    height: 100px;
+    left: 90px;
+    bottom: 15px;
+    position: relative;
+
+}
+
+.twt {
+    width: 80px;
+    height: 80px;
+    left: 85px;
+    bottom: 25px;
+    position: relative;
+
+}
+
+
+

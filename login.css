@@ -1,0 +1,97 @@
+    * {
+        margin: 0px; 
+        padding: 0px; 
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #fc4a1a; 
+        background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  
+        background: linear-gradient(to right, #f7b733, rgb(252, 74, 26));
+
+    }
+
+    .container {
+        width:500px;
+        height:620px;
+        background-color: rgba(252, 52, 20, 0.3);
+        left:430px;
+        top: 12px;
+        position: relative; 
+    }
+
+    h2 {
+        left:168px;
+        top: 120px;
+        position: relative;
+        font-size: 35px;
+        
+    }
+
+    p,h2 {
+        color: snow;
+    }
+
+    form input {
+        width: 250px;
+        position: absolute;
+    }
+
+    form input, p {
+        left: 125px;
+        top: 150px;
+        position: relative;
+    }
+
+    .fn1 {
+        margin-top: 10px;
+    }
+
+    .fn2 {
+        margin-top: 10px;
+    }
+
+    .fn3 {
+        margin-top: 10px;
+    }
+
+    .efect {
+        font-size: 15px;
+        left: 243px;
+        top: 150px;
+        position: relative;
+    }
+
+
+    h3 {
+        font-size: 30px;
+        left: 228px;
+        top: 200px;
+        color: snow;
+        position: relative;
+    }
+
+    .ig {
+        width: 120px;
+        height: 120px;
+        left: 100px;
+        top: 180px;
+        position: relative;
+    }
+
+    .fb {
+            width: 120px;
+            height: 120px;
+            left: 65px;
+            top: 180px;
+            position: relative;
+        
+    }
+
+    .twt {
+        width: 85px;
+        height: 85px;
+        left: 50px;
+        top: 162px;
+        position: relative;
+    }   
